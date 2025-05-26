@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Address Book in A class</h1>
+    <form action="/add" method="post">
+        <label for="htmlname">Name:</label>
+        <input type="text" id="htmlname" name="pyname" required>
+
+        <label for="htmlphone">Phone:</label>
+        <input type="text" id="htmlphone" name="pyphone" required>
+
+        <button type="submit">Add Contact</button>
+    </form>
+    <img src="{{ url_for('static', filename='images/a.jpg') }}" alt="Logo" style="display:block; margin:32px auto 0; width:160px; height:auto;">
+</body>
+</html>
