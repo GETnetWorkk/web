@@ -54,7 +54,6 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 6. templates/index.html 파일 만들기
-Flask는 기본적으로 templates 폴더에서 HTML 파일을 찾습니다. 아래는 index.html 파일의 내용입니다.
 ```
 <!DOCTYPE html>
 <html lang="ko">
@@ -153,3 +152,6 @@ button:hover {
     transform: translateY(-2px) scale(1.03);
 }
 ```
+## 실행 하기
+브라우저에서 http://127.0.0.1:5000로 접속하여 이름과 전화번호를 입력하고 저장할 수 있습니다.
+![image](https://github.com/user-attachments/assets/76c47e9f-4040-47bc-ad4b-1c23b301f997)
